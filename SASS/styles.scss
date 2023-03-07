@@ -6,8 +6,6 @@ $background-color_2: #1b2a4e;
 
 /*===============Propiedades Generales================*/
 @import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
-/*===================MENU==========================*/
-/*=================== IMAGENES==========================*/
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
 /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
 /*===========================SECCION CABA==================================*/
@@ -21,6 +19,8 @@ body {
 	font-family: $font-family_1;
 	overflow-x: hidden;
 }
+/*===================MENU==========================*/
+
 #menu {
 	a {
 		font-size: 18px !important;
@@ -32,6 +32,8 @@ button {
 	font-size: 18px !important;
 	font-weight: 600;
 }
+/*=================== IMAGENES==========================*/
+
 .carousel-inner {
 	max-height: 39rem !important;
 }
@@ -39,6 +41,8 @@ button {
 	max-height: 30rem !important;
 	width: 50%;
 }
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+
 #local {
 	margin-top: 50px;
 	background-color: $background-color_1;
@@ -56,6 +60,8 @@ button {
 	margin-left: 100px;
 	padding-top: 150px;
 }
+/*===========================SECCION CABA==================================*/
+
 #numeros-local {
 	margin: 0 !important;
 	padding: 0 !important;
@@ -74,6 +80,8 @@ button {
 		margin: 0;
 	}
 }
+/*=========================CONTACTOS BACKGROUND================================*/
+
 #bg-contactos {
 	position: relative;
 	top: -130px;
@@ -83,6 +91,8 @@ button {
 	min-height: 500px;
 	position: relative;
 }
+/*=========================CONTACTOS FORMULARIO================================*/
+
 #contenedor-formulario {
 	position: absolute;
 	top: 30%;
@@ -94,6 +104,8 @@ button {
 #titulo-formulario {
 	color: $color_1;
 }
+/*=========================FOOTER================================*/
+
 footer {
 	background: #1b2a4e;
 	min-height: 100px;
@@ -109,6 +121,8 @@ footer {
 		color: $color_2;
 	}
 }
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
 @media (max-width:1200px) {
 	#intro {
 		width: 90% !important;
@@ -128,6 +142,8 @@ footer {
 		padding-top: 50px;
 	}
 }
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
 @media (max-width:768px) {
 	#intro {
 		width: 90% !important;
@@ -159,6 +175,8 @@ footer {
 		top: -120px;
 	}
 }
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
 @media (max-width: 576px) {
 	#servicios-fila-2 {
 		width: 100% !important;

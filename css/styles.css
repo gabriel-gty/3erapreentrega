@@ -68,6 +68,7 @@ body {
   margin:0;
 }
 
+/*=========================CONTACTOS BACKGROUND================================*/
 
 #bg-contactos {
   position: relative;
@@ -79,6 +80,7 @@ body {
   min-height: 500px;
   position: relative;
 }
+/*=========================CONTACTOS FORMULARIO================================*/
 
 #contenedor-formulario {
   position: absolute;
@@ -93,6 +95,7 @@ body {
   color: #3f3f3f;
 }
 
+/*=========================FOOTER================================*/
 footer {
   background: #1b2a4e;
   min-height: 100px;
@@ -107,7 +110,7 @@ footer p {
   padding: 0 8px;
   color: #f3f3f3;
 }
-
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 @media (max-width: 1200px) {
   #intro {
     width: 90% !important;
@@ -127,6 +130,8 @@ footer p {
     padding-top: 50px;
   }
 }
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
 @media (max-width: 768px) {
   #intro {
     width: 90% !important;
@@ -156,6 +161,8 @@ footer p {
     top: -120px;
   }
 }
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
 @media (max-width: 576px) {
   #servicios-fila-2 {
     width: 100% !important;
