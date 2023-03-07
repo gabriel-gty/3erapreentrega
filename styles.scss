@@ -1,0 +1,174 @@
+$color_1: #3f3f3f;
+$color_2: #f3f3f3;
+$font-family_1: 'Montserrat', sans-serif;
+$background-color_1: #f3f3f3;
+$background-color_2: #1b2a4e;
+
+/*===============Propiedades Generales================*/
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+/*===================MENU==========================*/
+/*=================== IMAGENES==========================*/
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+/*===========================SECCION CABA==================================*/
+/*=========================CONTACTOS BACKGROUND================================*/
+/*=========================CONTACTOS FORMULARIO================================*/
+/*=========================FOOTER================================*/
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+body {
+	font-family: $font-family_1;
+	overflow-x: hidden;
+}
+#menu {
+	a {
+		font-size: 18px !important;
+		font-weight: 600;
+		color: $color_1;
+	}
+}
+button {
+	font-size: 18px !important;
+	font-weight: 600;
+}
+.carousel-inner {
+	max-height: 39rem !important;
+}
+#img-equipo {
+	max-height: 30rem !important;
+	width: 50%;
+}
+#local {
+	margin-top: 50px;
+	background-color: $background-color_1;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 300px;
+}
+.mapa {
+	background: url(../img/Captura\ de\ pantalla\ \(1059\).png);
+	width: 100%;
+	height: 500px;
+}
+.wrapper-local {
+	width: 50%;
+	margin-left: 100px;
+	padding-top: 150px;
+}
+#numeros-local {
+	margin: 0 !important;
+	padding: 0 !important;
+	div {
+		padding: 0 20px 0 0;
+		text-align: left;
+		height: 48px;
+		&:not(:last-child) {
+			border-right: 2px solid #3f3f3f;
+		}
+		&:not(:first-child) {
+			padding-left: 20px;
+		}
+	}
+	p {
+		margin: 0;
+	}
+}
+#bg-contactos {
+	position: relative;
+	top: -130px;
+}
+#seccion-contacto {
+	background-color: $background-color_2;
+	min-height: 500px;
+	position: relative;
+}
+#contenedor-formulario {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fbfafa;
+	border-radius: 5px;
+}
+#titulo-formulario {
+	color: $color_1;
+}
+footer {
+	background: #1b2a4e;
+	min-height: 100px;
+	p {
+		color: $color_2;
+		text-align: center;
+	}
+}
+#iconos {
+	i {
+		font-size: 26px;
+		padding: 0 8px;
+		color: $color_2;
+	}
+}
+@media (max-width:1200px) {
+	#intro {
+		width: 90% !important;
+		margin: auto;
+	}
+	#equipo {
+		width: 90% !important;
+		margin: auto;
+	}
+	#local {
+		flex-wrap: wrap;
+		padding-top: 30px;
+	}
+	.wrapper-local {
+		width: 90%;
+		margin: auto;
+		padding-top: 50px;
+	}
+}
+@media (max-width:768px) {
+	#intro {
+		width: 90% !important;
+		margin: auto;
+	}
+	#equipo {
+		width: 90% !important;
+		margin: auto;
+	}
+	#img-equipo {
+		max-height: 20rem !important;
+		width: 90%;
+	}
+	.wrapper-local {
+		width: 90%;
+		margin: auto;
+		padding-top: 50px;
+	}
+	#local {
+		flex-wrap: wrap;
+	}
+	.mapa {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	#bg-contactos {
+		top: -120px;
+	}
+}
+@media (max-width: 576px) {
+	#servicios-fila-2 {
+		width: 100% !important;
+	}
+	#servicios-fila-1 {
+		width: 100% !important;
+	}
+	.icono-wrap {
+		flex-wrap: wrap !important;
+		justify-content: center !important;
+		text-align: center;
+	}
+}
