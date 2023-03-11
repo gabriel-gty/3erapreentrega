@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 
-/*===========================SECCION CABA==================================*/
+/*===========================CABA==================================*/
 #numeros-local{
   margin:0 !important;
   padding:0 !important;
